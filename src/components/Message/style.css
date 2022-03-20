@@ -1,0 +1,15 @@
+.message__block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.message__content{
+    font-family: Inconsolata, monospace;
+    align-self: flex-start;
+}
+
+.message__author{
+    color: #6F39B5;
+    align-self: flex-end;
+    font-family: Inconsolata, monospace;
+}

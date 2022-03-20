@@ -1,0 +1,15 @@
+.centered_{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.global-width{
+    width: 700px;
+}
+.last-messages__content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}

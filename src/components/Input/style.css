@@ -1,0 +1,12 @@
+input {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+}
+input::placeholder{
+    font-family: 'Inconsolata', monospace!important;
+    color: #BABABA;
+}

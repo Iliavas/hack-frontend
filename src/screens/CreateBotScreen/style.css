@@ -1,0 +1,55 @@
+.create-bot__container{
+    max-width: 586px;
+    padding: 40px;
+    display: flex;
+    gap: 150px;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.inputs{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 480px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.big-wheel{
+    position: absolute;
+    top: -200px;
+    right: -100px;
+}
+.middle-wheel{
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    z-index: -1;
+}
+.small-wheel{
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+    z-index: -1;
+}
+.paralaxContainer{
+    position: absolute!important;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+}
+.absolute{
+    position: absolute;
+}

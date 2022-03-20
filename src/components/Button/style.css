@@ -1,0 +1,13 @@
+.button{
+    outline: none;
+    border: none;
+    background-color: #6F39B5;
+    border-radius: 10px;
+    padding: 16px;
+    font-family: Montserrat;
+    color: white;
+}
+.button:hover{
+    box-shadow: 0px 0px 4px #6F39B5;
+    cursor: pointer;
+}
